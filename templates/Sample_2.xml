@@ -1,0 +1,1209 @@
+<?xml version="1.0" ?>
+<template encoding-version="1.1">
+  <description></description>
+  <groupId>015f1000-51e0-1b10-42c6-1041168e17b0</groupId>
+  <name>Sample 2</name>
+  <snippet>
+    <connections>
+      <id>9180666e-8242-33be-0000-000000000000</id>
+      <parentGroupId>486a840a-2876-3a7c-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>486a840a-2876-3a7c-0000-000000000000</groupId>
+        <id>d681bc3e-6ff0-3b42-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>failure</selectedRelationships>
+      <selectedRelationships>unmatched</selectedRelationships>
+      <source>
+        <groupId>486a840a-2876-3a7c-0000-000000000000</groupId>
+        <id>41997859-8949-366e-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>c5e9633b-6c63-315e-0000-000000000000</id>
+      <parentGroupId>486a840a-2876-3a7c-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>486a840a-2876-3a7c-0000-000000000000</groupId>
+        <id>7449f4a1-6583-3200-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>486a840a-2876-3a7c-0000-000000000000</groupId>
+        <id>f630a074-e47a-30d9-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>c7498160-c96d-3619-0000-000000000000</id>
+      <parentGroupId>486a840a-2876-3a7c-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>486a840a-2876-3a7c-0000-000000000000</groupId>
+        <id>d681bc3e-6ff0-3b42-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>failure</selectedRelationships>
+      <source>
+        <groupId>486a840a-2876-3a7c-0000-000000000000</groupId>
+        <id>6d083e8b-5ae6-394c-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>dc79c26a-1bd8-3b15-0000-000000000000</id>
+      <parentGroupId>486a840a-2876-3a7c-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>486a840a-2876-3a7c-0000-000000000000</groupId>
+        <id>6d083e8b-5ae6-394c-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>matched</selectedRelationships>
+      <source>
+        <groupId>486a840a-2876-3a7c-0000-000000000000</groupId>
+        <id>41997859-8949-366e-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>ed230de5-4ccc-3051-0000-000000000000</id>
+      <parentGroupId>486a840a-2876-3a7c-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>486a840a-2876-3a7c-0000-000000000000</groupId>
+        <id>c18b38ec-b9b3-301b-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>failure</selectedRelationships>
+      <source>
+        <groupId>486a840a-2876-3a7c-0000-000000000000</groupId>
+        <id>f630a074-e47a-30d9-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>244c1ab9-0b9a-3004-0000-000000000000</id>
+      <parentGroupId>486a840a-2876-3a7c-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>486a840a-2876-3a7c-0000-000000000000</groupId>
+        <id>f630a074-e47a-30d9-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>486a840a-2876-3a7c-0000-000000000000</groupId>
+        <id>6d083e8b-5ae6-394c-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>2cf909b4-5a59-3c18-0000-000000000000</id>
+      <parentGroupId>486a840a-2876-3a7c-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>486a840a-2876-3a7c-0000-000000000000</groupId>
+        <id>d681bc3e-6ff0-3b42-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>failure</selectedRelationships>
+      <source>
+        <groupId>486a840a-2876-3a7c-0000-000000000000</groupId>
+        <id>f630a074-e47a-30d9-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>630c2220-8979-3377-0000-000000000000</id>
+      <parentGroupId>486a840a-2876-3a7c-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>486a840a-2876-3a7c-0000-000000000000</groupId>
+        <id>41997859-8949-366e-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>486a840a-2876-3a7c-0000-000000000000</groupId>
+        <id>cb5da7d2-8891-33fb-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <controllerServices>
+      <id>20925f38-0cb0-3509-0000-000000000000</id>
+      <parentGroupId>486a840a-2876-3a7c-0000-000000000000</parentGroupId>
+      <bundle>
+        <artifact>nifi-aws-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.4.0</version>
+      </bundle>
+      <comments></comments>
+      <descriptors>
+        <entry>
+          <key>default-credentials</key>
+          <value>
+            <name>default-credentials</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Access Key</key>
+          <value>
+            <name>Access Key</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Secret Key</key>
+          <value>
+            <name>Secret Key</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Credentials File</key>
+          <value>
+            <name>Credentials File</name>
+          </value>
+        </entry>
+        <entry>
+          <key>profile-name</key>
+          <value>
+            <name>profile-name</name>
+          </value>
+        </entry>
+        <entry>
+          <key>anonymous-credentials</key>
+          <value>
+            <name>anonymous-credentials</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Assume Role ARN</key>
+          <value>
+            <name>Assume Role ARN</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Assume Role Session Name</key>
+          <value>
+            <name>Assume Role Session Name</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Session Time</key>
+          <value>
+            <name>Session Time</name>
+          </value>
+        </entry>
+        <entry>
+          <key>assume-role-external-id</key>
+          <value>
+            <name>assume-role-external-id</name>
+          </value>
+        </entry>
+        <entry>
+          <key>assume-role-proxy-host</key>
+          <value>
+            <name>assume-role-proxy-host</name>
+          </value>
+        </entry>
+        <entry>
+          <key>assume-role-proxy-port</key>
+          <value>
+            <name>assume-role-proxy-port</name>
+          </value>
+        </entry>
+      </descriptors>
+      <name>AWSCredentialsProviderControllerService</name>
+      <persistsState>false</persistsState>
+      <properties>
+        <entry>
+          <key>default-credentials</key>
+        </entry>
+        <entry>
+          <key>Access Key</key>
+        </entry>
+        <entry>
+          <key>Secret Key</key>
+        </entry>
+        <entry>
+          <key>Credentials File</key>
+        </entry>
+        <entry>
+          <key>profile-name</key>
+        </entry>
+        <entry>
+          <key>anonymous-credentials</key>
+        </entry>
+        <entry>
+          <key>Assume Role ARN</key>
+        </entry>
+        <entry>
+          <key>Assume Role Session Name</key>
+        </entry>
+        <entry>
+          <key>Session Time</key>
+        </entry>
+        <entry>
+          <key>assume-role-external-id</key>
+        </entry>
+        <entry>
+          <key>assume-role-proxy-host</key>
+        </entry>
+        <entry>
+          <key>assume-role-proxy-port</key>
+        </entry>
+      </properties>
+      <state>ENABLED</state>
+      <type>org.apache.nifi.processors.aws.credentials.provider.service.AWSCredentialsProviderControllerService</type>
+    </controllerServices>
+    <controllerServices>
+      <id>6c5dc2dc-b70c-3db3-0000-000000000000</id>
+      <parentGroupId>486a840a-2876-3a7c-0000-000000000000</parentGroupId>
+      <bundle>
+        <artifact>nifi-dbcp-service-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.4.0</version>
+      </bundle>
+      <comments></comments>
+      <descriptors>
+        <entry>
+          <key>Database Connection URL</key>
+          <value>
+            <name>Database Connection URL</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Database Driver Class Name</key>
+          <value>
+            <name>Database Driver Class Name</name>
+          </value>
+        </entry>
+        <entry>
+          <key>database-driver-locations</key>
+          <value>
+            <name>database-driver-locations</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Database User</key>
+          <value>
+            <name>Database User</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Password</key>
+          <value>
+            <name>Password</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Max Wait Time</key>
+          <value>
+            <name>Max Wait Time</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Max Total Connections</key>
+          <value>
+            <name>Max Total Connections</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Validation-query</key>
+          <value>
+            <name>Validation-query</name>
+          </value>
+        </entry>
+      </descriptors>
+      <name>Docker Postgres</name>
+      <persistsState>false</persistsState>
+      <properties>
+        <entry>
+          <key>Database Connection URL</key>
+          <value>jdbc:postgresql://postgres:5432/nifi</value>
+        </entry>
+        <entry>
+          <key>Database Driver Class Name</key>
+          <value>org.postgresql.Driver</value>
+        </entry>
+        <entry>
+          <key>database-driver-locations</key>
+          <value>https://jdbc.postgresql.org/download/postgresql-42.0.0.jar</value>
+        </entry>
+        <entry>
+          <key>Database User</key>
+          <value>nifi</value>
+        </entry>
+        <entry>
+          <key>Password</key>
+        </entry>
+        <entry>
+          <key>Max Wait Time</key>
+          <value>10000 millis</value>
+        </entry>
+        <entry>
+          <key>Max Total Connections</key>
+          <value>8</value>
+        </entry>
+        <entry>
+          <key>Validation-query</key>
+        </entry>
+      </properties>
+      <state>ENABLED</state>
+      <type>org.apache.nifi.dbcp.DBCPConnectionPool</type>
+    </controllerServices>
+    <processors>
+      <id>c18b38ec-b9b3-301b-0000-000000000000</id>
+      <parentGroupId>486a840a-2876-3a7c-0000-000000000000</parentGroupId>
+      <position>
+        <x>0.0</x>
+        <y>866.7292251586914</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.4.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>log-level</key>
+            <value>
+              <name>log-level</name>
+            </value>
+          </entry>
+          <entry>
+            <key>log-prefix</key>
+            <value>
+              <name>log-prefix</name>
+            </value>
+          </entry>
+          <entry>
+            <key>log-message</key>
+            <value>
+              <name>log-message</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>log-level</key>
+            <value>error</value>
+          </entry>
+          <entry>
+            <key>log-prefix</key>
+          </entry>
+          <entry>
+            <key>log-message</key>
+            <value>Error converting avro to JSON</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>LogMessage</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <state>STOPPED</state>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.LogMessage</type>
+    </processors>
+    <processors>
+      <id>cb5da7d2-8891-33fb-0000-000000000000</id>
+      <parentGroupId>486a840a-2876-3a7c-0000-000000000000</parentGroupId>
+      <position>
+        <x>270.824951171875</x>
+        <y>0.0</y>
+      </position>
+      <bundle>
+        <artifact>nifi-aws-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.4.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Queue URL</key>
+            <value>
+              <name>Queue URL</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Auto Delete Messages</key>
+            <value>
+              <name>Auto Delete Messages</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Access Key</key>
+            <value>
+              <name>Access Key</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Secret Key</key>
+            <value>
+              <name>Secret Key</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Credentials File</key>
+            <value>
+              <name>Credentials File</name>
+            </value>
+          </entry>
+          <entry>
+            <key>AWS Credentials Provider service</key>
+            <value>
+              <identifiesControllerService>org.apache.nifi.processors.aws.credentials.provider.service.AWSCredentialsProviderService</identifiesControllerService>
+              <name>AWS Credentials Provider service</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Region</key>
+            <value>
+              <name>Region</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Batch Size</key>
+            <value>
+              <name>Batch Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Communications Timeout</key>
+            <value>
+              <name>Communications Timeout</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Character Set</key>
+            <value>
+              <name>Character Set</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Visibility Timeout</key>
+            <value>
+              <name>Visibility Timeout</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Receive Message Wait Time</key>
+            <value>
+              <name>Receive Message Wait Time</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Proxy Host</key>
+            <value>
+              <name>Proxy Host</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Proxy Host Port</key>
+            <value>
+              <name>Proxy Host Port</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Queue URL</key>
+            <value>https://sqs.us-east-1.amazonaws.com/142221083342/local-queue1</value>
+          </entry>
+          <entry>
+            <key>Auto Delete Messages</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Access Key</key>
+          </entry>
+          <entry>
+            <key>Secret Key</key>
+          </entry>
+          <entry>
+            <key>Credentials File</key>
+          </entry>
+          <entry>
+            <key>AWS Credentials Provider service</key>
+            <value>20925f38-0cb0-3509-0000-000000000000</value>
+          </entry>
+          <entry>
+            <key>Region</key>
+            <value>us-east-1</value>
+          </entry>
+          <entry>
+            <key>Batch Size</key>
+            <value>10</value>
+          </entry>
+          <entry>
+            <key>Communications Timeout</key>
+            <value>30 secs</value>
+          </entry>
+          <entry>
+            <key>Character Set</key>
+            <value>UTF-8</value>
+          </entry>
+          <entry>
+            <key>Visibility Timeout</key>
+            <value>15 mins</value>
+          </entry>
+          <entry>
+            <key>Receive Message Wait Time</key>
+            <value>0 sec</value>
+          </entry>
+          <entry>
+            <key>Proxy Host</key>
+          </entry>
+          <entry>
+            <key>Proxy Host Port</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>GetSQS</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <state>RUNNING</state>
+      <style></style>
+      <type>org.apache.nifi.processors.aws.sqs.GetSQS</type>
+    </processors>
+    <processors>
+      <id>d681bc3e-6ff0-3b42-0000-000000000000</id>
+      <parentGroupId>486a840a-2876-3a7c-0000-000000000000</parentGroupId>
+      <position>
+        <x>1005.8792790115772</x>
+        <y>315.4791860442143</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.4.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>log-level</key>
+            <value>
+              <name>log-level</name>
+            </value>
+          </entry>
+          <entry>
+            <key>log-prefix</key>
+            <value>
+              <name>log-prefix</name>
+            </value>
+          </entry>
+          <entry>
+            <key>log-message</key>
+            <value>
+              <name>log-message</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>log-level</key>
+            <value>error</value>
+          </entry>
+          <entry>
+            <key>log-prefix</key>
+          </entry>
+          <entry>
+            <key>log-message</key>
+            <value>Failed to grab avro file from S3 and write to database</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>LogMessage</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <state>RUNNING</state>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.LogMessage</type>
+    </processors>
+    <processors>
+      <id>f630a074-e47a-30d9-0000-000000000000</id>
+      <parentGroupId>486a840a-2876-3a7c-0000-000000000000</parentGroupId>
+      <position>
+        <x>273.0</x>
+        <y>649.7292251586914</y>
+      </position>
+      <bundle>
+        <artifact>nifi-avro-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.4.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>JSON container options</key>
+            <value>
+              <name>JSON container options</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Wrap Single Record</key>
+            <value>
+              <name>Wrap Single Record</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Avro schema</key>
+            <value>
+              <name>Avro schema</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>JSON container options</key>
+            <value>array</value>
+          </entry>
+          <entry>
+            <key>Wrap Single Record</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Avro schema</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ConvertAvroToJSON</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <state>RUNNING</state>
+      <style></style>
+      <type>org.apache.nifi.processors.avro.ConvertAvroToJSON</type>
+    </processors>
+    <processors>
+      <id>41997859-8949-366e-0000-000000000000</id>
+      <parentGroupId>486a840a-2876-3a7c-0000-000000000000</parentGroupId>
+      <position>
+        <x>270.4623343153877</x>
+        <y>199.2832975435703</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.4.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Destination</key>
+            <value>
+              <name>Destination</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Return Type</key>
+            <value>
+              <name>Return Type</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Path Not Found Behavior</key>
+            <value>
+              <name>Path Not Found Behavior</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Null Value Representation</key>
+            <value>
+              <name>Null Value Representation</name>
+            </value>
+          </entry>
+          <entry>
+            <key>bucket</key>
+            <value>
+              <name>bucket</name>
+            </value>
+          </entry>
+          <entry>
+            <key>key</key>
+            <value>
+              <name>key</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Destination</key>
+            <value>flowfile-attribute</value>
+          </entry>
+          <entry>
+            <key>Return Type</key>
+            <value>auto-detect</value>
+          </entry>
+          <entry>
+            <key>Path Not Found Behavior</key>
+            <value>warn</value>
+          </entry>
+          <entry>
+            <key>Null Value Representation</key>
+            <value>empty string</value>
+          </entry>
+          <entry>
+            <key>bucket</key>
+            <value>$.bucket</value>
+          </entry>
+          <entry>
+            <key>key</key>
+            <value>$.key</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>EvaluateJsonPath</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>matched</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>unmatched</name>
+      </relationships>
+      <state>RUNNING</state>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.EvaluateJsonPath</type>
+    </processors>
+    <processors>
+      <id>6d083e8b-5ae6-394c-0000-000000000000</id>
+      <parentGroupId>486a840a-2876-3a7c-0000-000000000000</parentGroupId>
+      <position>
+        <x>274.8748061834391</x>
+        <y>421.37923558092064</y>
+      </position>
+      <bundle>
+        <artifact>nifi-aws-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.4.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Bucket</key>
+            <value>
+              <name>Bucket</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Object Key</key>
+            <value>
+              <name>Object Key</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Region</key>
+            <value>
+              <name>Region</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Access Key</key>
+            <value>
+              <name>Access Key</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Secret Key</key>
+            <value>
+              <name>Secret Key</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Credentials File</key>
+            <value>
+              <name>Credentials File</name>
+            </value>
+          </entry>
+          <entry>
+            <key>AWS Credentials Provider service</key>
+            <value>
+              <identifiesControllerService>org.apache.nifi.processors.aws.credentials.provider.service.AWSCredentialsProviderService</identifiesControllerService>
+              <name>AWS Credentials Provider service</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Communications Timeout</key>
+            <value>
+              <name>Communications Timeout</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Version</key>
+            <value>
+              <name>Version</name>
+            </value>
+          </entry>
+          <entry>
+            <key>SSL Context Service</key>
+            <value>
+              <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
+              <name>SSL Context Service</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Endpoint Override URL</key>
+            <value>
+              <name>Endpoint Override URL</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Signer Override</key>
+            <value>
+              <name>Signer Override</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Proxy Host</key>
+            <value>
+              <name>Proxy Host</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Proxy Host Port</key>
+            <value>
+              <name>Proxy Host Port</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Bucket</key>
+            <value>${bucket}</value>
+          </entry>
+          <entry>
+            <key>Object Key</key>
+            <value>${key}</value>
+          </entry>
+          <entry>
+            <key>Region</key>
+            <value>us-east-1</value>
+          </entry>
+          <entry>
+            <key>Access Key</key>
+          </entry>
+          <entry>
+            <key>Secret Key</key>
+          </entry>
+          <entry>
+            <key>Credentials File</key>
+          </entry>
+          <entry>
+            <key>AWS Credentials Provider service</key>
+            <value>20925f38-0cb0-3509-0000-000000000000</value>
+          </entry>
+          <entry>
+            <key>Communications Timeout</key>
+            <value>30 secs</value>
+          </entry>
+          <entry>
+            <key>Version</key>
+          </entry>
+          <entry>
+            <key>SSL Context Service</key>
+          </entry>
+          <entry>
+            <key>Endpoint Override URL</key>
+          </entry>
+          <entry>
+            <key>Signer Override</key>
+            <value>Default Signature</value>
+          </entry>
+          <entry>
+            <key>Proxy Host</key>
+          </entry>
+          <entry>
+            <key>Proxy Host Port</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>FetchS3Object</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <state>RUNNING</state>
+      <style></style>
+      <type>org.apache.nifi.processors.aws.s3.FetchS3Object</type>
+    </processors>
+    <processors>
+      <id>7449f4a1-6583-3200-0000-000000000000</id>
+      <parentGroupId>486a840a-2876-3a7c-0000-000000000000</parentGroupId>
+      <position>
+        <x>499.0</x>
+        <y>870.7292251586914</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.4.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>JDBC Connection Pool</key>
+            <value>
+              <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+              <name>JDBC Connection Pool</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Statement Type</key>
+            <value>
+              <name>Statement Type</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Table Name</key>
+            <value>
+              <name>Table Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Catalog Name</key>
+            <value>
+              <name>Catalog Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Schema Name</key>
+            <value>
+              <name>Schema Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Translate Field Names</key>
+            <value>
+              <name>Translate Field Names</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Unmatched Field Behavior</key>
+            <value>
+              <name>Unmatched Field Behavior</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Unmatched Column Behavior</key>
+            <value>
+              <name>Unmatched Column Behavior</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Update Keys</key>
+            <value>
+              <name>Update Keys</name>
+            </value>
+          </entry>
+          <entry>
+            <key>jts-quoted-identifiers</key>
+            <value>
+              <name>jts-quoted-identifiers</name>
+            </value>
+          </entry>
+          <entry>
+            <key>jts-quoted-table-identifiers</key>
+            <value>
+              <name>jts-quoted-table-identifiers</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>JDBC Connection Pool</key>
+            <value>6c5dc2dc-b70c-3db3-0000-000000000000</value>
+          </entry>
+          <entry>
+            <key>Statement Type</key>
+            <value>INSERT</value>
+          </entry>
+          <entry>
+            <key>Table Name</key>
+            <value>test_data</value>
+          </entry>
+          <entry>
+            <key>Catalog Name</key>
+          </entry>
+          <entry>
+            <key>Schema Name</key>
+            <value>public</value>
+          </entry>
+          <entry>
+            <key>Translate Field Names</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Unmatched Field Behavior</key>
+            <value>Ignore Unmatched Fields</value>
+          </entry>
+          <entry>
+            <key>Unmatched Column Behavior</key>
+            <value>Fail on Unmatched Columns</value>
+          </entry>
+          <entry>
+            <key>Update Keys</key>
+          </entry>
+          <entry>
+            <key>jts-quoted-identifiers</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>jts-quoted-table-identifiers</key>
+            <value>false</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ConvertJSONToSQL</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>original</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>sql</name>
+      </relationships>
+      <state>STOPPED</state>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ConvertJSONToSQL</type>
+    </processors>
+  </snippet>
+  <timestamp>10/18/2017 14:19:36 UTC</timestamp>
+</template>
