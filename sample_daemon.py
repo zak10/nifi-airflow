@@ -1,7 +1,12 @@
 import time
+import os
 
-counter = 0
+try:
+    user = os.environ['APP_USER']
+except KeyError:
+    print('APP_USER not defined!')
+    exit(1)
+
 while True:
     time.sleep(3)
-    counter += 1
-    print('Iteration {i}'.format(i=counter))
+    print('Who\'s in here? {u}'.format(u=user))

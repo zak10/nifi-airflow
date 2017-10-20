@@ -28,4 +28,10 @@ services:
             - 8081:8081
         volumes:
             - ./data:/mnt/data
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        environment:
+            APP_USER: zach
 
