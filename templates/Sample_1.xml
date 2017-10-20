@@ -1,17 +1,80 @@
 <?xml version="1.0" ?>
 <template encoding-version="1.1">
   <description></description>
-  <groupId>2b1051e0-015f-1000-024b-50bc1bfe42a7</groupId>
-  <name>Sample 1</name>
+  <groupId>3a1debb7-015f-1000-ea21-22cd897419bd</groupId>
+  <name>Sample 4</name>
   <snippet>
     <connections>
-      <id>c23e00e0-7070-3d32-0000-000000000000</id>
-      <parentGroupId>78d10581-e101-3051-0000-000000000000</parentGroupId>
+      <id>084cdb1a-dbb8-34c7-0000-000000000000</id>
+      <parentGroupId>b5a8df4b-2f25-3c31-0000-000000000000</parentGroupId>
       <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
       <backPressureObjectThreshold>10000</backPressureObjectThreshold>
       <destination>
-        <groupId>78d10581-e101-3051-0000-000000000000</groupId>
-        <id>09f26cca-94c9-36dd-0000-000000000000</id>
+        <groupId>b5a8df4b-2f25-3c31-0000-000000000000</groupId>
+        <id>f561570b-6601-353d-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>b5a8df4b-2f25-3c31-0000-000000000000</groupId>
+        <id>baed1d19-cabf-3205-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>107d66f7-6135-38f4-0000-000000000000</id>
+      <parentGroupId>b5a8df4b-2f25-3c31-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>b5a8df4b-2f25-3c31-0000-000000000000</groupId>
+        <id>0b14b982-d8f5-3da1-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>sql</selectedRelationships>
+      <source>
+        <groupId>b5a8df4b-2f25-3c31-0000-000000000000</groupId>
+        <id>f561570b-6601-353d-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>40bf3a42-dfc7-37db-0000-000000000000</id>
+      <parentGroupId>b5a8df4b-2f25-3c31-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>b5a8df4b-2f25-3c31-0000-000000000000</groupId>
+        <id>baed1d19-cabf-3205-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>b5a8df4b-2f25-3c31-0000-000000000000</groupId>
+        <id>c333f937-e337-3eff-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>496e8b5e-8ab4-3881-0000-000000000000</id>
+      <parentGroupId>b5a8df4b-2f25-3c31-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>b5a8df4b-2f25-3c31-0000-000000000000</groupId>
+        <id>b00bf2f8-bc11-3ade-0000-000000000000</id>
         <type>PROCESSOR</type>
       </destination>
       <flowFileExpiration>0 sec</flowFileExpiration>
@@ -19,57 +82,15 @@
       <name></name>
       <selectedRelationships>failure</selectedRelationships>
       <source>
-        <groupId>78d10581-e101-3051-0000-000000000000</groupId>
-        <id>6710f019-ac3f-3b7d-0000-000000000000</id>
-        <type>PROCESSOR</type>
-      </source>
-      <zIndex>0</zIndex>
-    </connections>
-    <connections>
-      <id>d040ed3c-1fa9-3575-0000-000000000000</id>
-      <parentGroupId>78d10581-e101-3051-0000-000000000000</parentGroupId>
-      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-      <destination>
-        <groupId>78d10581-e101-3051-0000-000000000000</groupId>
-        <id>6710f019-ac3f-3b7d-0000-000000000000</id>
-        <type>PROCESSOR</type>
-      </destination>
-      <flowFileExpiration>0 sec</flowFileExpiration>
-      <labelIndex>1</labelIndex>
-      <name></name>
-      <selectedRelationships>success</selectedRelationships>
-      <source>
-        <groupId>78d10581-e101-3051-0000-000000000000</groupId>
-        <id>db6a552d-4274-37c2-0000-000000000000</id>
-        <type>PROCESSOR</type>
-      </source>
-      <zIndex>0</zIndex>
-    </connections>
-    <connections>
-      <id>31219bf2-45b3-3c0a-0000-000000000000</id>
-      <parentGroupId>78d10581-e101-3051-0000-000000000000</parentGroupId>
-      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
-      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
-      <destination>
-        <groupId>78d10581-e101-3051-0000-000000000000</groupId>
-        <id>84d32f4d-3e82-32ca-0000-000000000000</id>
-        <type>PROCESSOR</type>
-      </destination>
-      <flowFileExpiration>0 sec</flowFileExpiration>
-      <labelIndex>1</labelIndex>
-      <name></name>
-      <selectedRelationships>success</selectedRelationships>
-      <source>
-        <groupId>78d10581-e101-3051-0000-000000000000</groupId>
-        <id>6710f019-ac3f-3b7d-0000-000000000000</id>
+        <groupId>b5a8df4b-2f25-3c31-0000-000000000000</groupId>
+        <id>baed1d19-cabf-3205-0000-000000000000</id>
         <type>PROCESSOR</type>
       </source>
       <zIndex>0</zIndex>
     </connections>
     <controllerServices>
-      <id>01c3eaf9-13c3-3d57-0000-000000000000</id>
-      <parentGroupId>78d10581-e101-3051-0000-000000000000</parentGroupId>
+      <id>5c9936d8-6e81-37b2-0000-000000000000</id>
+      <parentGroupId>b5a8df4b-2f25-3c31-0000-000000000000</parentGroupId>
       <bundle>
         <artifact>nifi-dbcp-service-nar</artifact>
         <group>org.apache.nifi</group>
@@ -126,12 +147,12 @@
           </value>
         </entry>
       </descriptors>
-      <name>Docker Postgres</name>
+      <name>DBCPConnectionPool</name>
       <persistsState>false</persistsState>
       <properties>
         <entry>
           <key>Database Connection URL</key>
-          <value>jdbc:postgresql://postgres:5432/nifi</value>
+          <value>jdbc:postgresql://postgres:5432/airflow</value>
         </entry>
         <entry>
           <key>Database Driver Class Name</key>
@@ -143,18 +164,16 @@
         </entry>
         <entry>
           <key>Database User</key>
-          <value>nifi</value>
+          <value>airflow</value>
         </entry>
         <entry>
           <key>Password</key>
         </entry>
         <entry>
           <key>Max Wait Time</key>
-          <value>10000 millis</value>
         </entry>
         <entry>
           <key>Max Total Connections</key>
-          <value>8</value>
         </entry>
         <entry>
           <key>Validation-query</key>
@@ -164,11 +183,11 @@
       <type>org.apache.nifi.dbcp.DBCPConnectionPool</type>
     </controllerServices>
     <processors>
-      <id>84d32f4d-3e82-32ca-0000-000000000000</id>
-      <parentGroupId>78d10581-e101-3051-0000-000000000000</parentGroupId>
+      <id>b00bf2f8-bc11-3ade-0000-000000000000</id>
+      <parentGroupId>b5a8df4b-2f25-3c31-0000-000000000000</parentGroupId>
       <position>
-        <x>499.0</x>
-        <y>467.0</y>
+        <x>0.0</x>
+        <y>463.0</y>
       </position>
       <bundle>
         <artifact>nifi-standard-nar</artifact>
@@ -181,70 +200,21 @@
         <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
         <descriptors>
           <entry>
-            <key>JDBC Connection Pool</key>
+            <key>log-level</key>
             <value>
-              <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
-              <name>JDBC Connection Pool</name>
+              <name>log-level</name>
             </value>
           </entry>
           <entry>
-            <key>Statement Type</key>
+            <key>log-prefix</key>
             <value>
-              <name>Statement Type</name>
+              <name>log-prefix</name>
             </value>
           </entry>
           <entry>
-            <key>Table Name</key>
+            <key>log-message</key>
             <value>
-              <name>Table Name</name>
-            </value>
-          </entry>
-          <entry>
-            <key>Catalog Name</key>
-            <value>
-              <name>Catalog Name</name>
-            </value>
-          </entry>
-          <entry>
-            <key>Schema Name</key>
-            <value>
-              <name>Schema Name</name>
-            </value>
-          </entry>
-          <entry>
-            <key>Translate Field Names</key>
-            <value>
-              <name>Translate Field Names</name>
-            </value>
-          </entry>
-          <entry>
-            <key>Unmatched Field Behavior</key>
-            <value>
-              <name>Unmatched Field Behavior</name>
-            </value>
-          </entry>
-          <entry>
-            <key>Unmatched Column Behavior</key>
-            <value>
-              <name>Unmatched Column Behavior</name>
-            </value>
-          </entry>
-          <entry>
-            <key>Update Keys</key>
-            <value>
-              <name>Update Keys</name>
-            </value>
-          </entry>
-          <entry>
-            <key>jts-quoted-identifiers</key>
-            <value>
-              <name>jts-quoted-identifiers</name>
-            </value>
-          </entry>
-          <entry>
-            <key>jts-quoted-table-identifiers</key>
-            <value>
-              <name>jts-quoted-table-identifiers</name>
+              <name>log-message</name>
             </value>
           </entry>
         </descriptors>
@@ -253,46 +223,15 @@
         <penaltyDuration>30 sec</penaltyDuration>
         <properties>
           <entry>
-            <key>JDBC Connection Pool</key>
-            <value>01c3eaf9-13c3-3d57-0000-000000000000</value>
+            <key>log-level</key>
+            <value>error</value>
           </entry>
           <entry>
-            <key>Statement Type</key>
-            <value>INSERT</value>
+            <key>log-prefix</key>
           </entry>
           <entry>
-            <key>Table Name</key>
-            <value>test_data</value>
-          </entry>
-          <entry>
-            <key>Catalog Name</key>
-          </entry>
-          <entry>
-            <key>Schema Name</key>
-            <value>public</value>
-          </entry>
-          <entry>
-            <key>Translate Field Names</key>
-            <value>true</value>
-          </entry>
-          <entry>
-            <key>Unmatched Field Behavior</key>
-            <value>Ignore Unmatched Fields</value>
-          </entry>
-          <entry>
-            <key>Unmatched Column Behavior</key>
-            <value>Fail on Unmatched Columns</value>
-          </entry>
-          <entry>
-            <key>Update Keys</key>
-          </entry>
-          <entry>
-            <key>jts-quoted-identifiers</key>
-            <value>false</value>
-          </entry>
-          <entry>
-            <key>jts-quoted-table-identifiers</key>
-            <value>false</value>
+            <key>log-message</key>
+            <value>Error converting avro to JSON</value>
           </entry>
         </properties>
         <runDurationMillis>0</runDurationMillis>
@@ -300,26 +239,88 @@
         <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
         <yieldDuration>1 sec</yieldDuration>
       </config>
-      <name>ConvertJSONToSQL</name>
+      <name>LogMessage</name>
       <relationships>
         <autoTerminate>true</autoTerminate>
-        <name>failure</name>
-      </relationships>
-      <relationships>
-        <autoTerminate>true</autoTerminate>
-        <name>original</name>
-      </relationships>
-      <relationships>
-        <autoTerminate>true</autoTerminate>
-        <name>sql</name>
+        <name>success</name>
       </relationships>
       <state>RUNNING</state>
       <style></style>
-      <type>org.apache.nifi.processors.standard.ConvertJSONToSQL</type>
+      <type>org.apache.nifi.processors.standard.LogMessage</type>
     </processors>
     <processors>
-      <id>db6a552d-4274-37c2-0000-000000000000</id>
-      <parentGroupId>78d10581-e101-3051-0000-000000000000</parentGroupId>
+      <id>baed1d19-cabf-3205-0000-000000000000</id>
+      <parentGroupId>b5a8df4b-2f25-3c31-0000-000000000000</parentGroupId>
+      <position>
+        <x>273.0</x>
+        <y>246.0</y>
+      </position>
+      <bundle>
+        <artifact>nifi-avro-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.4.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>JSON container options</key>
+            <value>
+              <name>JSON container options</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Wrap Single Record</key>
+            <value>
+              <name>Wrap Single Record</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Avro schema</key>
+            <value>
+              <name>Avro schema</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>JSON container options</key>
+            <value>array</value>
+          </entry>
+          <entry>
+            <key>Wrap Single Record</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Avro schema</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>ConvertAvroToJSON</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <state>RUNNING</state>
+      <style></style>
+      <type>org.apache.nifi.processors.avro.ConvertAvroToJSON</type>
+    </processors>
+    <processors>
+      <id>c333f937-e337-3eff-0000-000000000000</id>
+      <parentGroupId>b5a8df4b-2f25-3c31-0000-000000000000</parentGroupId>
       <position>
         <x>268.0</x>
         <y>0.0</y>
@@ -472,11 +473,11 @@
       <type>org.apache.nifi.processors.standard.GetFile</type>
     </processors>
     <processors>
-      <id>09f26cca-94c9-36dd-0000-000000000000</id>
-      <parentGroupId>78d10581-e101-3051-0000-000000000000</parentGroupId>
+      <id>f561570b-6601-353d-0000-000000000000</id>
+      <parentGroupId>b5a8df4b-2f25-3c31-0000-000000000000</parentGroupId>
       <position>
-        <x>0.0</x>
-        <y>463.0</y>
+        <x>499.0</x>
+        <y>467.0</y>
       </position>
       <bundle>
         <artifact>nifi-standard-nar</artifact>
@@ -489,21 +490,70 @@
         <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
         <descriptors>
           <entry>
-            <key>log-level</key>
+            <key>JDBC Connection Pool</key>
             <value>
-              <name>log-level</name>
+              <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+              <name>JDBC Connection Pool</name>
             </value>
           </entry>
           <entry>
-            <key>log-prefix</key>
+            <key>Statement Type</key>
             <value>
-              <name>log-prefix</name>
+              <name>Statement Type</name>
             </value>
           </entry>
           <entry>
-            <key>log-message</key>
+            <key>Table Name</key>
             <value>
-              <name>log-message</name>
+              <name>Table Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Catalog Name</key>
+            <value>
+              <name>Catalog Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Schema Name</key>
+            <value>
+              <name>Schema Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Translate Field Names</key>
+            <value>
+              <name>Translate Field Names</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Unmatched Field Behavior</key>
+            <value>
+              <name>Unmatched Field Behavior</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Unmatched Column Behavior</key>
+            <value>
+              <name>Unmatched Column Behavior</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Update Keys</key>
+            <value>
+              <name>Update Keys</name>
+            </value>
+          </entry>
+          <entry>
+            <key>jts-quoted-identifiers</key>
+            <value>
+              <name>jts-quoted-identifiers</name>
+            </value>
+          </entry>
+          <entry>
+            <key>jts-quoted-table-identifiers</key>
+            <value>
+              <name>jts-quoted-table-identifiers</name>
             </value>
           </entry>
         </descriptors>
@@ -512,15 +562,45 @@
         <penaltyDuration>30 sec</penaltyDuration>
         <properties>
           <entry>
-            <key>log-level</key>
-            <value>error</value>
+            <key>JDBC Connection Pool</key>
+            <value>5c9936d8-6e81-37b2-0000-000000000000</value>
           </entry>
           <entry>
-            <key>log-prefix</key>
+            <key>Statement Type</key>
+            <value>INSERT</value>
           </entry>
           <entry>
-            <key>log-message</key>
-            <value>Error converting avro to JSON</value>
+            <key>Table Name</key>
+            <value>test_data</value>
+          </entry>
+          <entry>
+            <key>Catalog Name</key>
+          </entry>
+          <entry>
+            <key>Schema Name</key>
+          </entry>
+          <entry>
+            <key>Translate Field Names</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Unmatched Field Behavior</key>
+            <value>Fail</value>
+          </entry>
+          <entry>
+            <key>Unmatched Column Behavior</key>
+            <value>Fail on Unmatched Columns</value>
+          </entry>
+          <entry>
+            <key>Update Keys</key>
+          </entry>
+          <entry>
+            <key>jts-quoted-identifiers</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>jts-quoted-table-identifiers</key>
+            <value>false</value>
           </entry>
         </properties>
         <runDurationMillis>0</runDurationMillis>
@@ -528,24 +608,32 @@
         <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
         <yieldDuration>1 sec</yieldDuration>
       </config>
-      <name>LogMessage</name>
+      <name>ConvertJSONToSQL</name>
       <relationships>
         <autoTerminate>true</autoTerminate>
-        <name>success</name>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>original</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>sql</name>
       </relationships>
       <state>RUNNING</state>
       <style></style>
-      <type>org.apache.nifi.processors.standard.LogMessage</type>
+      <type>org.apache.nifi.processors.standard.ConvertJSONToSQL</type>
     </processors>
     <processors>
-      <id>6710f019-ac3f-3b7d-0000-000000000000</id>
-      <parentGroupId>78d10581-e101-3051-0000-000000000000</parentGroupId>
+      <id>0b14b982-d8f5-3da1-0000-000000000000</id>
+      <parentGroupId>b5a8df4b-2f25-3c31-0000-000000000000</parentGroupId>
       <position>
-        <x>273.0</x>
-        <y>246.0</y>
+        <x>500.022216796875</x>
+        <y>692.1612548828125</y>
       </position>
       <bundle>
-        <artifact>nifi-avro-nar</artifact>
+        <artifact>nifi-standard-nar</artifact>
         <group>org.apache.nifi</group>
         <version>1.4.0</version>
       </bundle>
@@ -555,21 +643,40 @@
         <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
         <descriptors>
           <entry>
-            <key>JSON container options</key>
+            <key>JDBC Connection Pool</key>
             <value>
-              <name>JSON container options</name>
+              <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+              <name>JDBC Connection Pool</name>
             </value>
           </entry>
           <entry>
-            <key>Wrap Single Record</key>
+            <key>Support Fragmented Transactions</key>
             <value>
-              <name>Wrap Single Record</name>
+              <name>Support Fragmented Transactions</name>
             </value>
           </entry>
           <entry>
-            <key>Avro schema</key>
+            <key>Transaction Timeout</key>
             <value>
-              <name>Avro schema</name>
+              <name>Transaction Timeout</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Batch Size</key>
+            <value>
+              <name>Batch Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Obtain Generated Keys</key>
+            <value>
+              <name>Obtain Generated Keys</name>
+            </value>
+          </entry>
+          <entry>
+            <key>rollback-on-failure</key>
+            <value>
+              <name>rollback-on-failure</name>
             </value>
           </entry>
         </descriptors>
@@ -578,15 +685,27 @@
         <penaltyDuration>30 sec</penaltyDuration>
         <properties>
           <entry>
-            <key>JSON container options</key>
-            <value>array</value>
+            <key>JDBC Connection Pool</key>
+            <value>5c9936d8-6e81-37b2-0000-000000000000</value>
           </entry>
           <entry>
-            <key>Wrap Single Record</key>
+            <key>Support Fragmented Transactions</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Transaction Timeout</key>
+          </entry>
+          <entry>
+            <key>Batch Size</key>
+            <value>100</value>
+          </entry>
+          <entry>
+            <key>Obtain Generated Keys</key>
             <value>false</value>
           </entry>
           <entry>
-            <key>Avro schema</key>
+            <key>rollback-on-failure</key>
+            <value>false</value>
           </entry>
         </properties>
         <runDurationMillis>0</runDurationMillis>
@@ -594,19 +713,23 @@
         <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
         <yieldDuration>1 sec</yieldDuration>
       </config>
-      <name>ConvertAvroToJSON</name>
+      <name>PutSQL</name>
       <relationships>
-        <autoTerminate>false</autoTerminate>
+        <autoTerminate>true</autoTerminate>
         <name>failure</name>
       </relationships>
       <relationships>
-        <autoTerminate>false</autoTerminate>
+        <autoTerminate>true</autoTerminate>
+        <name>retry</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
         <name>success</name>
       </relationships>
       <state>RUNNING</state>
       <style></style>
-      <type>org.apache.nifi.processors.avro.ConvertAvroToJSON</type>
+      <type>org.apache.nifi.processors.standard.PutSQL</type>
     </processors>
   </snippet>
-  <timestamp>10/18/2017 14:22:51 UTC</timestamp>
+  <timestamp>10/20/2017 14:24:35 UTC</timestamp>
 </template>
